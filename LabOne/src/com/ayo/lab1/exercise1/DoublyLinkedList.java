@@ -1,4 +1,4 @@
-package com.ayo.week3.exercise1;
+package com.ayo.lab1.exercise1;
 
 public class DoublyLinkedList<E> {
     /** A basic doubly linked list implementation. */
@@ -90,6 +90,33 @@ public class DoublyLinkedList<E> {
     public E removeLast() {
         if(isEmpty()) return null;      // nothing to remove
         return remove(trailer.getPrev());   // last element is before the trailer
+    }
+
+    /** Concatenate two given doubly linked lists. */
+    public void concat(DoublyLinkedList<E> secondList) {
+        if(secondList.isEmpty()) return; // nothing to concatenate
+
+        Node<E> secondListFirstNode = secondList.header.getNext();
+        Node<E> secondListLastNode = secondList.trailer.getPrev();
+        Node<E> firstListLastNode = this.trailer.getPrev();
+
+
+        secondListFirstNode.setPrev(firstListLastNode); // link the second list's first node  to the first list's last node
+        firstListLastNode.setNext(secondListFirstNode); // link the second list's last node to the  first list's first node
+
+        this.trailer.setPrev(secondListLastNode); // link the first list's last node to the second list's last node
+        secondListLastNode.setNext(this.trailer); // link the second list's last node to the first list trailer
+
+        size += secondList.size(); // add the number of elements in the second list to the total
+    }
+
+    /** Method to display the contents of the linked list. */
+    public void display() {
+        Node<E> current = header.getNext();
+        while(current!= trailer) {
+            System.out.println(current.getElement());
+            current = current.getNext();
+        }
     }
 
 } // ---------------- end of DoublyLinkedList class ----------------
