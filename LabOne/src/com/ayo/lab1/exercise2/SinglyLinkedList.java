@@ -5,7 +5,7 @@ public class SinglyLinkedList<E> {
     private static class Node<E> {
         // instance variables
         private E element; // reference to the element stored at this node
-        private Node<E> next; // reference to the next node in the list
+        private Node<E> next; // refe rence to the next node in the list
 
         // constructor
         public Node(E e, Node<E> n) {
