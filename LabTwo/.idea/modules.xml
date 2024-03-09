@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DSA_Examples.LabTwo.iml" filepath="$PROJECT_DIR$/.idea/modules/DSA_Examples.LabTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LabTwo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/LabTwo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LabTwo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/LabTwo.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -18,7 +18,7 @@ public class RecursiveMultiplication {
 
     public static void main(String[] args) {
         int m = 5;
-        int n = 3;
+        int n = -3;
         System.out.println("The product of " + m + " and " + n + " is: " + recursiveProduct(m, n));
     }
 }
