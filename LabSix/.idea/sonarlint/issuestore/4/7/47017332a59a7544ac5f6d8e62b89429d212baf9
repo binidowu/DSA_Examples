@@ -1,0 +1,21 @@
+
+U
+java:S5993"9Change the visibility of this constructor to "protected".(²½¸p8Ÿ‚¢çé1
+8
+java:S2326"K is not used in the class.(Øñ··8 ‚¢çé1
+8
+java:S2326"V is not used in the class.(Øñ··8 ‚¢çé1
+X
+java:S1854(";Remove this useless assignment to local variable "numKeys".(©¢ç¼8Ð÷§çé1
+^
+java:S1854,"<Remove this useless assignment to local variable "probeMap".(á˜È«üÿÿÿÿ8Ð÷§çé1
+^
+java:S1854+"<Remove this useless assignment to local variable "chainMap".(ÌëÂþÿÿÿÿ8¿«§çé1
+I
+java:S1481(",Remove this unused "numKeys" local variable.(©¢ç¼8Ñ÷§çé1
+O
+java:S1481+"-Remove this unused "chainMap" local variable.(ÌëÂþÿÿÿÿ8Á«§çé1
+O
+java:S1481,"-Remove this unused "probeMap" local variable.(á˜È«üÿÿÿÿ8Ñ÷§çé1
+N
+java:S1068"1Remove this unused "maxLoadFactor" private field.(…êÂœ8¢‚¢çé1
